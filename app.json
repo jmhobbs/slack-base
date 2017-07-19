@@ -1,0 +1,12 @@
+{
+  "name": "Slack Base",
+  "description": "Hook this up to a Slack slash command to print different bases of integers.",
+  "repository": "https://github.com/jmhobbs/slack-base",
+  "keywords": ["go", "slack"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "The slash command secret token.",
+      "required": true
+    }
+  }
+}
